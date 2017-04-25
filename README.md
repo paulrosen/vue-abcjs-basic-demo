@@ -1,5 +1,7 @@
 # vue-abcjs-basic-demo
-> Simplest abcjs demo for npm
+> Simple Vue application that displays sheet music using abcjs to render ABC Notation.
+
+See [abcjs](https://github.com/paulrosen/abcjs) for details.
 
 ## Build Setup
 
@@ -16,5 +18,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
