@@ -7,8 +7,6 @@
 		<p>The only necessary code to make this work is:</p>
 		<pre>import abcjs from "abcjs";
 abcjs.renderAbc("paper", this.tune);</pre>
-		<textarea id="abc-source"></textarea>
-		<div id="midi"></div>
 		<div id="paper"></div>
 	</div>
 </template>
@@ -18,7 +16,7 @@ abcjs.renderAbc("paper", this.tune);</pre>
 
 	export default {
 		mounted: function () {
-			abcjs.renderAbc("paper", this.tune);
+			abcjs.renderAbc("paper", this.tune, {}, { }, {});
 		},
 		name: 'hello',
 		data () {
@@ -30,6 +28,9 @@ abcjs.renderAbc("paper", this.tune);</pre>
 </script>
 
 <style>
+	.hello {
+		text-align: left;
+	}
 	#abc-source {
 		width: 350px;
 		height: 300px;
