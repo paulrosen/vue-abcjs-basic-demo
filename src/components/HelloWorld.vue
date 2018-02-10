@@ -6,7 +6,10 @@
 		<pre>npm install abcjs --save</pre>
 		<p>The only necessary code to make this work is:</p>
 		<pre>import abcjs from "abcjs";
-abcjs.renderAbc("paper", this.tune);</pre>
+
+const tune = "X:1\nT:etc...";
+abcjs.renderAbc("paper", tune);</pre>
+		<pre>&lt;div id="paper"&gt;&lt;/div&gt;</pre>
 		<div id="paper"></div>
 	</div>
 </template>
