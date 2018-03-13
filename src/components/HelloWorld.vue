@@ -19,7 +19,7 @@ abcjs.renderAbc("paper", tune);</pre>
 
 	export default {
 		mounted: function () {
-			abcjs.renderAbc("paper", this.tune, {}, { }, {});
+			abcjs.renderAbc("paper", this.tune, {});
 		},
 		name: 'hello',
 		data () {
